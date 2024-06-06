@@ -1,0 +1,149 @@
+body {
+    font-family: Be Vietnam Pro, Arial;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .wrapper{
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .stickyHeader{
+    border-radius: 10px;
+    border: solid rgba(0, 0, 0, 0.137) 3px;
+    background-color: rgba(255, 255, 255, 0.363);
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+  .container {
+    max-width: 420px;
+    margin: 80px auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .no{
+    background-color: red;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #message{
+    margin-top: 20px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  #confetti-canvas{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    max-height: 100px;
+    max-width: 100px;
+  }
+
+  footer{
+    margin-top: 200px;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      padding-top: 50px;
+    }
+  
+    h1 {
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      padding: 8px 16px;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  }
+  /*==============================================================================*/
+  .plugIns{
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    width: 100%;
+}
+
+.navbar{
+    border-radius: 4px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    padding-bottom: -5px;
+  }
+  
+  .social-icons li {
+    margin: 0 16px;
+  }
+  
+  .social-icons a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: black;
+    text-decoration: none;
+    border: none;
+  }
+  
+
+  
+  .social-icons i {
+    font-size: 2em;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .social-icons a:hover i {
+    transform: translateY(-5px);
+  }

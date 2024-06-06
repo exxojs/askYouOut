@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, stranger!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="stickyHeader">
+            <img src="coffeee.png" alt="" height="100px">
+            <img src="coffeee.png" alt="" height="100px">
+            <img src="coffeee.png" alt="" height="100px">
+        </div>
+
+        <div class="container mx-auto">
+                <h1 class="text-2xl" id="init">Hey there👋<br>May I Ask You Something?</h1>
+                <button onclick="startQuestions()" id="que">Sure</button>
+        
+                <div id="questions" style="display: none;">
+                    <h1 class="text-2xl mt-8">Question 1:</h1>
+                    <p>Do you believe in love at first sight?</p>
+                    <button onclick="answerYes()">Yes</button>
+                    <button onclick="answerNo()" class="no">No</button>
+                </div>
+        
+                <div id="message" style="display: none;">
+                    <p id="messageText"></p>
+                </div>
+            </div>
+        
+            <canvas id="confetti-canvas">
+           </canvas>
+
+        <div class="plugIns">
+            <nav class="navbar">
+                <ul class="social-icons">
+                    <li>
+                      <a href="https://www.facebook.com/JSEPH.Dz/" target="_blank" rel="noopener noreferrer" id="cutie">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://www.instagram.com/rai.hiroaki/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/p/C0O7n-1NSUP/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-regular fa-face-laugh-wink"></i>
+                      </a>
+                    </li>
+                  </ul>
+              </nav>
+       </div> <!--END OF plugIns-->
+        <h3 id="pangalan">Joseph Diaz 💞</h3>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/92839e2d3d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js"></script>
+    <script src="script.js" ></script>
+</body>
+</html>
